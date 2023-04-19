@@ -62,7 +62,7 @@ async function searchSpecialty({
 }): Promise<void> {
   const search = await appointmentsRepositories.searchSpecialty({ specialty });
   console.log(search);
-  return search
+  
 }
 
 async function searchCity({ city }) {
